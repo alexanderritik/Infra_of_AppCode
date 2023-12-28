@@ -9,6 +9,7 @@ spec:
   source:
     repoURL: https://github.com/alexanderritik/Infra_of_AppCode.git
     targetRevision: HEAD
+    path: dev
   destination: 
     server: https://kubernetes.default.svc
     namespace: appCode
